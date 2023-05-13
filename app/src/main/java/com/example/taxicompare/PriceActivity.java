@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class PriceActivity extends AppCompatActivity {
 
-    private Button button1,button2,button3,button4,button5;
+    private Button button1,button2,button3,button4,button5 ,button6, button7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,12 @@ public class PriceActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button5);
         button4 = findViewById(R.id.button6);
         button5 = findViewById(R.id.button7);
+        button6 = findViewById(R.id.button8);
+        button7 = findViewById(R.id.Team);
+
+
+
+
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,15 +64,27 @@ public class PriceActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-//        button5.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent i = new Intent(Intent.ACTION_VIEW);
-//                i.setData(Uri.parse(""));
-//                startActivity(i);
-//            }
-//        });
+
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(),Payment_Page.class);
+
+                startActivity(i);
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext() , MainActivity2.class);
+
+                startActivity(i);
+            }
+        });
+
 
 
     }

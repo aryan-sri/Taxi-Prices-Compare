@@ -14,10 +14,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739">
+        app:layout_constraintVertical_bias="0.704">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="75dp"
+                android:layout_width="67dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="0dp"
@@ -47,8 +47,8 @@
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingRight="10dp"
                 android:text="Rs. 195"
-android:paddingRight="10dp"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -87,10 +87,11 @@ android:paddingRight="10dp"
                 android:layout_width="76dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Rs. 230"
                 android:paddingRight="10dp"
+                android:text="Rs. 230"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
 
             <Button
                 android:id="@+id/button4"
@@ -127,8 +128,8 @@ android:paddingRight="10dp"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Rs. 235"
                 android:paddingRight="10dp"
+                android:text="Rs. 235"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -167,8 +168,8 @@ android:paddingRight="10dp"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Rs. 200"
                 android:paddingRight="10dp"
+                android:text="Rs. 200"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -177,8 +178,7 @@ android:paddingRight="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight="1"
-                android:text="Book Now"
-                />
+                android:text="Book Now" />
         </LinearLayout>
 
         <LinearLayout
@@ -208,8 +208,8 @@ android:paddingRight="10dp"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Rs. 300"
                 android:paddingRight="10dp"
+                android:text="Rs. 300"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -220,6 +220,13 @@ android:paddingRight="10dp"
                 android:layout_weight="1"
                 android:text="Book Now" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="Make Payment" />
     </LinearLayout>
 
     <TextView
@@ -237,13 +244,12 @@ android:paddingRight="10dp"
         app:layout_constraintVertical_bias="0.523" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Team"
         android:layout_width="164dp"
         android:layout_height="50dp"
-        android:layout_marginTop="8dp"
         android:text="Team Details"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
