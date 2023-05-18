@@ -198,7 +198,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Role: Non Tech" />
+                        android:text="Role: Non Tech and API Integrator" />
 
                     <TextView
                         android:layout_width="match_parent"
